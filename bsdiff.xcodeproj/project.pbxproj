@@ -11,6 +11,8 @@
 		96ED089213DDB3EE006C6B6A /* bsdiff.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96ED089113DDB3EE006C6B6A /* bsdiff.1 */; };
 		96ED089E13DDB401006C6B6A /* bspatch.c in Sources */ = {isa = PBXBuildFile; fileRef = 96ED089D13DDB401006C6B6A /* bspatch.c */; };
 		96ED08A013DDB401006C6B6A /* bspatch.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96ED089F13DDB401006C6B6A /* bspatch.1 */; };
+		96ED08AF13DDB6CF006C6B6A /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ED08AE13DDB6CF006C6B6A /* libbz2.dylib */; };
+		96ED08B113DDB6DA006C6B6A /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ED08B013DDB6DA006C6B6A /* libbz2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		96ED08AB13DDB577006C6B6A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		96ED08AC13DDB587006C6B6A /* Makefile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.txt; sourceTree = "<group>"; };
 		96ED08AD13DDB587006C6B6A /* Makefile.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = Makefile.inc; sourceTree = "<group>"; };
+		96ED08AE13DDB6CF006C6B6A /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libbz2.dylib; sourceTree = DEVELOPER_DIR; };
+		96ED08B013DDB6DA006C6B6A /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libbz2.dylib; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ED08B113DDB6DA006C6B6A /* libbz2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ED08AF13DDB6CF006C6B6A /* libbz2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +96,7 @@
 		96ED088E13DDB3EE006C6B6A /* bsdiff */ = {
 			isa = PBXGroup;
 			children = (
+				96ED08B313DDB711006C6B6A /* Libraries and Frameworks */,
 				96ED08A913DDB532006C6B6A /* Makefile */,
 				96ED088F13DDB3EE006C6B6A /* bsdiff.c */,
 				96ED089113DDB3EE006C6B6A /* bsdiff.1 */,
@@ -100,11 +107,28 @@
 		96ED089C13DDB401006C6B6A /* bspatch */ = {
 			isa = PBXGroup;
 			children = (
+				96ED08B213DDB6EB006C6B6A /* Libraries and Frameworks */,
 				96ED08AB13DDB577006C6B6A /* Makefile */,
 				96ED089D13DDB401006C6B6A /* bspatch.c */,
 				96ED089F13DDB401006C6B6A /* bspatch.1 */,
 			);
 			path = bspatch;
+			sourceTree = "<group>";
+		};
+		96ED08B213DDB6EB006C6B6A /* Libraries and Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96ED08AE13DDB6CF006C6B6A /* libbz2.dylib */,
+			);
+			name = "Libraries and Frameworks";
+			sourceTree = "<group>";
+		};
+		96ED08B313DDB711006C6B6A /* Libraries and Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96ED08B013DDB6DA006C6B6A /* libbz2.dylib */,
+			);
+			name = "Libraries and Frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,12 +214,14 @@
 		96ED088513DDB3C0006C6B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 			};
 			name = Debug;
 		};
 		96ED088613DDB3C0006C6B6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 			};
 			name = Release;
 		};
