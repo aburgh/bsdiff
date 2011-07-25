@@ -34,6 +34,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 
+typedef unsigned char u_char;
+
 static off_t offtin(u_char *buf)
 {
 	off_t y;
