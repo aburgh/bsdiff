@@ -89,6 +89,7 @@
 		96347C1314D32B87008AFCBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96347C1614D32B87008AFCBC /* bsreplace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bsreplace-Prefix.pch"; sourceTree = "<group>"; };
 		96347C1714D32B87008AFCBC /* bsreplace.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bsreplace.1; sourceTree = "<group>"; };
+		96347C3514D6AAFE008AFCBC /* Readme.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.markdown; sourceTree = "<group>"; };
 		96ED088B13DDB3EE006C6B6A /* bsdiff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bsdiff; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ED088F13DDB3EE006C6B6A /* bsdiff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bsdiff.c; sourceTree = "<group>"; };
 		96ED089113DDB3EE006C6B6A /* bsdiff.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bsdiff.1; sourceTree = "<group>"; };
@@ -160,6 +161,7 @@
 		96ED087E13DDB3C0006C6B6A = {
 			isa = PBXGroup;
 			children = (
+				96347C3514D6AAFE008AFCBC /* Readme.markdown */,
 				96ED08AC13DDB587006C6B6A /* Makefile.txt */,
 				96ED08AD13DDB587006C6B6A /* Makefile.inc */,
 				96ED088E13DDB3EE006C6B6A /* bsdiff */,
