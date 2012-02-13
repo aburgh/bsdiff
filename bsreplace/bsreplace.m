@@ -14,6 +14,8 @@
 #define AllowResizing    (1 << 0)
 #define AllowMultiples   (1 << 1)
 
+#pragma mark - Categories
+
 @interface NSObject (NSObjectAdditions)
 @property (readonly) const char * UTF8Description;
 
@@ -27,7 +29,7 @@
 }
 @end
 
-// Prototypes
+#pragma mark - Prototypes
 
 /* The hex string format requires each byte have both nibbles. Whitespace
    is consumed and does not affect interpretation of low/high nibble.
@@ -51,7 +53,7 @@ void print_usage(FILE *outfile, const char *progname);
 
 void exit_usage(NSString *progname, int status);
 
-// Declarations
+#pragma mark - Declarations
 
 NSData *HexToData(NSString *hexString) {
 	
