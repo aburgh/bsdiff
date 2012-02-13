@@ -23,7 +23,7 @@
 
 /* Begin PBXBuildFile section */
 		96347C1114D32B87008AFCBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96347C1014D32B87008AFCBC /* Foundation.framework */; };
-		96347C1414D32B87008AFCBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96347C1314D32B87008AFCBC /* main.m */; };
+		96347C1414D32B87008AFCBC /* bsreplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 96347C1314D32B87008AFCBC /* bsreplace.m */; };
 		96347C1814D32B87008AFCBC /* bsreplace.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96347C1714D32B87008AFCBC /* bsreplace.1 */; };
 		96ED089013DDB3EE006C6B6A /* bsdiff.c in Sources */ = {isa = PBXBuildFile; fileRef = 96ED088F13DDB3EE006C6B6A /* bsdiff.c */; };
 		96ED089213DDB3EE006C6B6A /* bsdiff.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 96ED089113DDB3EE006C6B6A /* bsdiff.1 */; };
@@ -86,7 +86,7 @@
 /* Begin PBXFileReference section */
 		96347C0D14D32B87008AFCBC /* bsreplace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bsreplace; sourceTree = BUILT_PRODUCTS_DIR; };
 		96347C1014D32B87008AFCBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		96347C1314D32B87008AFCBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96347C1314D32B87008AFCBC /* bsreplace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bsreplace.m; sourceTree = "<group>"; };
 		96347C1614D32B87008AFCBC /* bsreplace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bsreplace-Prefix.pch"; sourceTree = "<group>"; };
 		96347C1714D32B87008AFCBC /* bsreplace.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bsreplace.1; sourceTree = "<group>"; };
 		96347C3514D6AAFE008AFCBC /* Readme.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.markdown; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		96347C1214D32B87008AFCBC /* bsreplace */ = {
 			isa = PBXGroup;
 			children = (
-				96347C1314D32B87008AFCBC /* main.m */,
+				96347C1314D32B87008AFCBC /* bsreplace.m */,
 				96347C1714D32B87008AFCBC /* bsreplace.1 */,
 				96347C1514D32B87008AFCBC /* Supporting Files */,
 			);
@@ -307,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96347C1414D32B87008AFCBC /* main.m in Sources */,
+				96347C1414D32B87008AFCBC /* bsreplace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +524,7 @@
 				96347C1A14D32B87008AFCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96ED088313DDB3C0006C6B6A /* Build configuration list for PBXProject "bsdiff" */ = {
 			isa = XCConfigurationList;
