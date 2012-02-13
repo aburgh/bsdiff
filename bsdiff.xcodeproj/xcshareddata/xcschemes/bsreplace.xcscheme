@@ -55,24 +55,6 @@
             ReferencedContainer = "container:bsdiff.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "/private/tmp/unpack/iPad1,1_4.3.4_8K2_Custom_Restore.ipsw/test"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "/private/tmp/unpack/iPad1,1_4.3.4_8K2_Custom_Restore.ipsw/test.out"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "&quot;90 47 83 45&quot;"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "&quot;90 47 00 20&quot;"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
